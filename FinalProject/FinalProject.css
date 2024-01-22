@@ -1,0 +1,298 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body {
+    align-self: center;
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: larger;
+}
+
+header {
+    background-image: url(https://assets.vogue.com/photos/59a6ee9ac3f99f428736c1a7/master/w_1600,c_limit/01-newfoundland-canada-travel-guide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+header h1,
+header h3 {
+    position: relative;
+    right: 50px;
+}
+
+header h1 {
+    padding-top: 400px;
+    font-size: 90px;
+    margin: 0;
+}
+
+header h3 {
+    padding-bottom: 400px;
+    margin: 0px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#unesco1 {
+    margin-bottom: 2px;
+}
+
+
+#unesco2 {
+    margin-top: 2px;
+}
+
+#vart {
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+#edi {
+    margin-top: 10px;
+}
+
+.thin-text {
+      font-family: 'Roboto Thin', sans-serif;
+      font-weight: 100;
+    }
+
+#luk {
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 70px;
+}
+
+#luk section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#luk hr {
+    width: 200px;
+}
+
+#luk img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+address {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+body article {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#whale img {
+    box-shadow: 10px 10px 5px #eaeaea;
+}
+
+#whale h1,
+#whale p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article section {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#puk h1 {
+    padding-top: 30px;
+}
+
+#puk p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    line-height: 40px;
+}
+
+#puk video {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#table {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#geology,
+#wd {
+    padding-top: 30px;
+    width: 100%;
+}
+
+#geotitle,
+#wt {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: stretch;
+}
+
+#geotitle img,
+#wt img {
+    padding: 15px;
+    width: 35px;
+}
+
+#geotitle h1,
+#wt h1 {
+    padding: 15px;
+}
+
+#wd :nth-child(2) img,
+#geology :nth-child(2) img {
+    width: 100%;
+}
+
+#wd :nth-child(2) section,
+#geology :nth-child(2) section {
+    padding: 15px;
+}
+
+footer {
+    background-color: black;
+    background-image: url(footer.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+}
+
+footer section {
+    margin: 15px;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer input {
+    width: 60%;
+    background: none;
+    border-bottom: 1px solid white;
+    height: 35px;
+}
+
+footer button {
+    height: 35px;
+    width: 16%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+footer p {
+    padding-bottom: 100px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    #luk {
+        width: 100%;
+        right: auto;
+        left: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    #geology :nth-child(2),
+    #wd :nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: normal;
+    }
+
+    #wd :nth-child(2) *,
+    #geology :nth-child(2) * {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 90%;
+    }
+
+    #whalepic img {
+        width: 90%;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #luk {
+        width: 80%;
+        right: 10%;
+        left: 10%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    #geology :nth-child(2),
+    #wd :nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: normal;
+    }
+
+    #wd :nth-child(2) *,
+    #geology :nth-child(2) * {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: left;
+        width: calc(100% / 3);
+    }
+        
+    #whalepic img {
+        width: 500px;
+        height: auto;
+    }
+}
